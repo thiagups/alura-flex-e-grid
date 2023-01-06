@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,11 +12,24 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Alura FLEX</title>
 </head>
+
 <body>
-    <header>
-        <button>Manu</button>
-        <img src="./assets/img/logo.svg" alt="Logo da HZC">
-        <button>Notificação</button>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+        <img class="cabecalho__logo" src="./assets/img/logo.svg" alt="Logotipo da HZC">
+        <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
     </header>
+    
+    <!-- Menu Lateral-->
+    <nav class="menu-lateral"><img src="./assets/img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo">
+        <a href="#" class="menu-lateral__link">Início</a>
+        <a href="#" class="menu-lateral__link">Vídeos</a>
+        <a href="#" class="menu-lateral__link">Picos</a>
+        <a href="#" class="menu-lateral__link">Integrantes</a>
+        <a href="#" class="menu-lateral__link">Camisas</a>
+        <a href="#" class="menu-lateral__link">Pinturas</a>
+    </nav>
 </body>
+
 </html>
